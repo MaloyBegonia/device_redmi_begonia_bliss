@@ -25,6 +25,21 @@ ro.kernel.zio=38,108,105,16
 # Netflix
 ro.netflix.bsp_rev=MTK6785-18758-1
 
+# Display
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
+ro.vendor.all_modes.colorpick_adjust=true
+ro.vendor.cabc.enable=true
+ro.vendor.colorpick_adjust=true
+ro.vendor.histogram.enable=false
+ro.vendor.xiaomi.bl.poll=true
+ro.vendor.whitepoint_calibration_enable=false
+vendor.displayfeature.entry.enable=true
+vendor.displayfeature_hidl=true
+debug.force_no_blanking=true
+debug.sf.enable_enable_hwc_vds=0
+
 # Perf
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
